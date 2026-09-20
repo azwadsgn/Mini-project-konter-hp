@@ -1,4 +1,4 @@
-**Sistem Informasi Konter HP Gemilang**
+**Sistem Informasi Konter HP Azwa**
 
 Aplikasi berbasis web sederhana menggunakan PHP untuk mengelola inventaris produk, memantau ketersediaan stok barang secara real-time, serta menghitung total nilai aset gudang di konter HP.
 
