@@ -1,1 +1,32 @@
-# Mini-project-konter-hp
+Sistem Informasi Konter HP Gemilang
+
+Aplikasi berbasis web sederhana menggunakan PHP untuk mengelola inventaris produk, memantau ketersediaan stok barang secara real-time, serta menghitung total nilai aset gudang di konter HP.
+
+Struktur File Project
+
+Project ini terdiri dari tiga file, yakni:
+
+tampilkan.php — Halaman antarmuka (UI) utama yang merender tabel daftar produk serta menampilkan kalkulasi total nilai aset.
+
+katalog_hp.php — Berisi array data produk sementara yang menyimpan informasi lengkap (ID, nama, kategori, harga, stok, dan deskripsi).
+
+functions.php — Berisi fungsi pendukung untuk menghitung total nilai seluruh stok (hitungTotalNilaiStok) dan logika peringatan otomatis untuk stok kritis (cekStatusStok).
+
+Fitur Utama
+
+Tabel Inventaris Produk: Menampilkan detail barang secara terstruktur dan rapi.
+
+Indikator Stok Kritis: Baris pada tabel otomatis berubah warna menjadi merah muda (#ffcccc) dan menampilkan label (Stok Kritis!) jika stok kurang dari 3 unit.
+
+Kalkulasi Otomatis Aset: Menghitung total keseluruhan nilai aset barang berdasarkan perkalian harga dan stok secara dinamis.
+
+Cara Menjalankan Project
+
+Pastikan server lokal PHP (seperti XAMPP, Laragon, atau PHP Built-in Server) sudah terinstal di komputer.
+
+Simpan ketiga file tersebut (functions.php, katalog_hp.php, dan tampilkan.php) ke dalam satu folder yang sama di direktori server lokal (misalnya di htdocs/konter-hp).
+
+Buka browser dan akses file utamanya melalui URL:
+
+http://localhost/konter-hp/tampilkan.php
+
