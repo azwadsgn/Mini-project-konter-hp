@@ -18,7 +18,7 @@ require_once 'functions.php';
 </head>
 <body>
 
-    <h2>Daftar Produk Konter HP Gemilang</h2>
+    <h2>Daftar Produk Konter HP Azwa</h2>
     
     <table>
         <thead>
