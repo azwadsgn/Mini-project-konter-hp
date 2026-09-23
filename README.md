@@ -4,9 +4,9 @@ Aplikasi berbasis web sederhana menggunakan PHP untuk mengelola inventaris produ
 
 **Struktur File Project**
 Project ini terdiri dari tiga file, yakni:
-1. tampilkan.php — Halaman antarmuka (UI) utama yang merender tabel daftar produk serta menampilkan kalkulasi total nilai aset.
-2. katalog_hp.php — Berisi array data produk sementara yang menyimpan informasi lengkap (ID, nama, kategori, harga, stok, dan deskripsi).
-3. functions.php — Berisi fungsi pendukung untuk menghitung total nilai seluruh stok (hitungTotalNilaiStok) dan logika peringatan otomatis untuk stok kritis (cekStatusStok).
+1. tampilkan.php : Halaman antarmuka (UI) utama yang merender tabel daftar produk serta menampilkan kalkulasi total nilai aset.
+2. katalog_hp.php : Berisi array data produk sementara yang menyimpan informasi lengkap (ID, nama, kategori, harga, stok, dan deskripsi).
+3. functions.php : Berisi fungsi pendukung untuk menghitung total nilai seluruh stok (hitungTotalNilaiStok) dan logika peringatan otomatis untuk stok kritis (cekStatusStok).
 
 **Fitur Utama**
 1. Tabel Inventaris Produk: Menampilkan detail barang secara terstruktur dan rapi.
