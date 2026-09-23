@@ -1,6 +1,6 @@
 <?php
 // index.php
-require_once 'katalog_hp.php';
+require_once 'products.php';
 require_once 'functions.php';
 ?>
 
