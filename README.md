@@ -57,8 +57,7 @@ B. Processing Layer (functions.php)
      
      -Mekanisme: Memeriksa pengkondisian evaluasi jika kuantitas kurang dari 3 unit ($stok < 3).
      
-     -Nilai Kembalian: String format inline CSS background-color: #ffcccc; color: #a00; untuk memberikan penanda visual
-     merah jika terdeteksi kritis, atau string kosong jika stok aman.
+     -Nilai Kembalian: String format inline CSS background-color: #ffcccc; color: #a00; untuk memberikan penanda visual merah jika terdeteksi kritis, atau string kosong jika stok aman.
 
 C. Presentation Layer (index.php)
 
