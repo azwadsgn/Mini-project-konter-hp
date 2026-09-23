@@ -68,8 +68,7 @@ C. Presentation Layer (index.php)
   1) Inklusi Modul: Memanggil berkas data dan fungsi di bagian paling atas dokumen menggunakan instruksi require_once
      (products.php dan functions.php).
      
-  2) Konstruksi Tabel: Menyusun struktur tabel HTML (<table>, <thead>, <tbody>) dengan penataan gaya khusus CSS pada header
-     (#75ff95).
+  2) Konstruksi Tabel: Menyusun struktur tabel HTML (<table>, <thead>, <tbody>) dengan penataan gaya khusus CSS pada header (#75ff95).
      
   3) Iterasi & Format Baris (foreach):
      
