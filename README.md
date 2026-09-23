@@ -68,17 +68,17 @@ C. Presentation Layer (index.php)
   1) Inklusi Modul: Memanggil berkas data dan fungsi di bagian paling atas dokumen menggunakan instruksi require_once
      (products.php dan functions.php).
      
-  2) Konstruksi Tabel: Menyusun struktur tabel HTML ("<table>, <thead>, <tbody>") dengan penataan gaya khusus CSS pada header(#75ff95).
+  2) Konstruksi Tabel: Menyusun struktur tabel HTML (table, thead, tbody) dengan penataan gaya khusus CSS pada header(#75ff95).
      
   3) Iterasi & Format Baris (foreach):
      
      -Melakukan iterasi terhadap variabel array $products.
      
-     -Menyisipkan atribut style inline hasil pemanggilan cekStatusStok($p['stok']) pada elemen "<tr>".
+     -Menyisipkan atribut style inline hasil pemanggilan cekStatusStok($p['stok']) pada elemen "tr".
      
      -Menformat tampilan angka harga menggunakan fungsi number_format() dengan pemisah ribuan titik.
      
-     -Menambahkan elemen indikator teks "<span class="badge">" (Stok Kritis!)</span> secara kondisional jika jumlah stok di
+     -Menambahkan elemen indikator teks span class="badge"> (Stok Kritis!)</span> secara kondisional jika jumlah stok di
      bawah 3.
      
   4) Penyajian Ringkasan Aset: Menampilkan total nilai keseluruhan barang di bagian bawah tabel dengan memanggil fungsi
