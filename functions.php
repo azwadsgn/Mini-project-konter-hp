@@ -10,7 +10,7 @@ function hitungTotalNilaiStok($data_produk) {
     return $total;
 }
 
-// Fungsi untuk menentukan warna baris tabel jika stok kritis (< 3)
+// Fungsi untuk menentukan warna baris tabel jika stok kritis
 function cekStatusStok($stok) {
     if ($stok < 3) {
         return "background-color: #ffcccc; color: #a00;"; // Warna merah muda untuk peringatan
